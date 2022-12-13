@@ -1,0 +1,12 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+           {
+                 "type": "Ruby",
+                 "name": "Rails server",
+                 "request": "launch",
+                 "program": "bin/rails",
+                 "args": ["server"]
+           }
+     ]
+}

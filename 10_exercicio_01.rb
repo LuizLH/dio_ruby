@@ -1,27 +1,26 @@
-#Verificar se a palavra é palíndromo
+# Verificar se a palavra é palíndromo
 
-#Palavras iguais quando lidas de frente para trás
-#ou trás para a frente, exemplo ovo
+# Palavras iguais quando lidas de frente para trás
+# ou trás para a frente, exemplo ovo
 
-#Objetivo: Definir um método que verifica se é
+# Objetivo: Definir um método que verifica se é
 # palíndromo
 
-#Usar gets para pedir input de dados e
+# Usar gets para pedir input de dados e
 # chamar o método
 
-#Imprimir se é palíndromo ou não
+# Imprimir se é palíndromo ou não
 
-puts "Verificar se uma palavra é palíndromo"
-puts "Entre com a palavra e tecle enter: "
+puts 'Verificar se uma palavra é palíndromo'
+puts 'Entre com a palavra e tecle enter:'
 entrada = gets
 
-palavra = entrada.chomp 
+palavra = entrada.chomp
 
 invertida = palavra.reverse
 
-if palavra == invertida 
-    puts "A palavra #{palavra}, é palíndromo"
+if palavra == invertida
+  puts "A palavra #{palavra}, é palíndromo"
 else
-    puts "A palavra #{palavra}, não é palíndomo"
+  puts "A palavra #{palavra}, não é palíndomo"
 end
-

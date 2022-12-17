@@ -1,5 +1,5 @@
 # frozen_string_literal: true
-
+=begin
 require 'narray'
 
 # Listas = Arrays
@@ -34,6 +34,19 @@ b = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 
 puts b.length
 puts b[0][1]
+=end
+
+def busy_days(birds_per_day)
+    ct = 0
+    birds_per_day.each do | d |
+      if d >= 5
+        ct += 1
+      end
+    end
+    ct
+end
+
+puts busy_days([2, 5, 0, 7, 4, 1])
 
 # b.each do |item, idx|
 #  puts idx
